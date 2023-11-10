@@ -1,0 +1,33 @@
+@media(max-width:545px){
+    #main{
+        flex-direction: column;
+    }
+    #main #left{
+        width: 100%;
+
+    }
+    #text-cent h1{
+        font-size: 80px;
+        font-weight: 800;
+    }
+    #text-cent p{
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    #main #right{
+        width: 100%;
+    }
+}
+/* Second Part */
+@media(max-width:545px){
+    #main2{
+        flex-direction: column;
+        
+    }
+    #main2 #center{
+        width: 100%;
+        height: 60%;
+    }
+    
+
+}
